@@ -5,20 +5,20 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div className="p-2 px-10 flex justify-between">
-      <div className="flex gap-10 items-center">
+    <div className="p-2 px-10 flex justify-between w-full overflow-hidden">
+      <div className="flex items-center flex-1">
         <div className="cursor-pointer flex gap-2 items-center">
           <div className="w-12 h-12 relative">
             <Image src="/Logo.png" alt="" layout="fill" />
           </div>
-          <p className="font-bold text-lg">RH Chemistry</p>
+          <p className="hidden lg:block font-bold text-lg">RH Chemistry</p>
         </div>
-        <div className="flex justify-between">
-          <p className="cursor-pointer p-2 px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">Courses</p>
-          <p className="cursor-pointer p-2 px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">Home</p>
-          <p className="cursor-pointer p-2 px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">About Us</p>
-          <p className="cursor-pointer p-2 px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">Pricing</p>
-          <p className="cursor-pointer p-2 px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">Contact</p>
+        <div className="flex justify-between items-center">
+          <p className="cursor-pointer p-2 lg:px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">Courses</p>
+          <p className="cursor-pointer p-2 lg:px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">Home</p>
+          <p className="cursor-pointer p-2 lg:px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">About Us</p>
+          <p className="cursor-pointer p-2 lg:px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">Pricing</p>
+          <p className="cursor-pointer p-2 lg:px-6 font-medium hover:bg-[#F1F1F3] rounded-lg">Contact</p>
         </div>
       </div>
       <div className="flex">

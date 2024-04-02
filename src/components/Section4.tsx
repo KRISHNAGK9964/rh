@@ -29,61 +29,61 @@ const Section4 = (props: Props) => {
             <div className="flex">
                 <div className="flex flex-col w-1/2 p-4 gap-4">
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Access to 30 online/offline NEET test papers</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Daily NEET paper discussions</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Detailed explanations for each question</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Explanations provided in Kannada</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Comprehensive coverage of Biology, Physics, Chemistry and Mathematics</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Tailored for Karnataka students</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Personalized performance tracking</p>
                     </div>
                 </div>
                 <div className="flex flex-col w-1/2 p-4 gap-4">
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Expert guidance from RH Sir</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Flexible access anytime, anywhere</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Peer learning through community interaction</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Regularly updated content to reflect NEET exam trends</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">In-depth analysis of each question</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">High-quality study material curated by experts</p>
                     </div>
                     <div className="flex border rounded-lg p-2 gap-4">
-                        <CheckIcon className="h-6 w-6" />
+                        <CheckIcon className="h-6 w-6 flex-shrink-0" />
                         <p className="">Stress-reducing practice in simulated exam environment</p>
                     </div>
                 </div>

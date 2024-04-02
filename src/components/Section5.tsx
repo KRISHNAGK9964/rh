@@ -18,7 +18,7 @@ const Section5 = (props: Props) => {
           </p>
           <button type="button" className="rounded-lg p-2 px-5 w-fit bg-white">BUY NOW</button>
         </div>
-        <div className="flex-1 -m-6">
+        <div className="flex-1 -m-6 hidden lg:block">
             <div className="relative h-full overflow-visible">
                 <img src={"/Banner2.png"} alt="" className="object-cover w-full h-full overflow-visible"/>
             </div>

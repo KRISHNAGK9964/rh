@@ -7,7 +7,7 @@ type Props = {};
 const Hero = (props: Props) => {
   return (
     <div className="px-10 mb-14">
-      <div className="flex justify-center">
+      <div className="flex justify-center flex-wrap-reverse">
         <div className="flex pt-32 flex-col gap-8">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-4">
@@ -58,7 +58,7 @@ const Hero = (props: Props) => {
             </div>
           </div>
         </div>
-        <div className="relative flex-1">
+        <div className="relative flex-1 min-w-[500px] aspect-square">
           <Image
             src="/Banner.png"
             alt=""

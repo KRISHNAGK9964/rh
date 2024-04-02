@@ -6,8 +6,8 @@ type Props = {};
 
 const Section8 = (props: Props) => {
   return (
-    <div className="p-10 border-t">
-      <div className="flex justify-between">
+    <div className="p-10 border-t pb-4">
+      <div className="flex justify-between flex-col lg:flex-row ">
         <div className="flex flex-col gap-2">
           <div className="cursor-pointer flex bg-white rounded-lg  p-2 px-4 gap-2 items-center">
             <div className="w-10 h-10 relative">
@@ -28,14 +28,14 @@ const Section8 = (props: Props) => {
             <p className="">Somewhere in the Chemistryverse</p>
           </div>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 pl-4">
             <p className="font-medium">Home</p>
             <p>NEET Test Series</p>
             <p> Benefits</p>
             <p>Our Testimonials</p>
             <p>Our FAQ</p>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 pl-4">
             <p className="font-semibold">Social Profiles</p>
             <div className="flex gap-2">
                 <div className="rounded-lg p-2 bg-gray-200">
@@ -50,7 +50,7 @@ const Section8 = (props: Props) => {
             </div>
         </div>
       </div>
-      <p className="p-4 text-center">© 2023 RH Chemsitry, Designed and powered by ScaleYou. All rights reserved.</p>
+      <p className="p-4 text-center font-medium">© 2023 RH Chemsitry, Designed and powered by ScaleYou. All rights reserved.</p>
     </div>
   );
 };

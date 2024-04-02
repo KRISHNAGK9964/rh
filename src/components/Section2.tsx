@@ -7,7 +7,7 @@ type Props = {};
 const Section2 = (props: Props) => {
   return (
     <div className="px-10 py-5">
-      <div className="flex  items-center gap-10">
+      <div className="flex lg:flex-row flex-col items-center gap-10">
         <div className="flex flex-col h-full  gap-10 flex-1">
           <p className="font-bold text-4xl text-[#911C82]">
             Why Choose NEET Test Series
@@ -54,7 +54,7 @@ const Section2 = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="p-4 w-1/3 border border-gray-300 rounded-lg">
+        <div className="p-4 flex-1 max-w-[500px] border border-gray-300 rounded-lg">
           <div className="relative w-full aspect-video">
             <Image
               className=""

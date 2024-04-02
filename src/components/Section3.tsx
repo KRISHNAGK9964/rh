@@ -16,7 +16,7 @@ const Section3 = (props: Props) => {
           </p>
         </div>
         <div className="flex flex-wrap justify-around gap-5">
-          <div className="flex w-1/4 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/4 flex-col gap-3 border rounded-lg p-4">
             <div className="text-4xl font-bold text-right ">01</div>
             <div>
               <p className="text-lg font-medium mb-1">Structured Preparation</p>
@@ -31,7 +31,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-1/4 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/4 flex-col gap-3 border rounded-lg p-4">
             <div className="text-4xl font-bold text-right ">02</div>
             <div>
               <p className="text-lg font-medium mb-1">Real Exam Simulation</p>
@@ -47,7 +47,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-1/4 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/4 flex-col gap-3 border rounded-lg p-4">
             <div className="text-4xl font-bold text-right ">03</div>
             <div>
               <p className="text-lg font-medium mb-1">Performance Tracking</p>
@@ -62,7 +62,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-1/4 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/4 flex-col gap-3 border rounded-lg p-4">
             <div className="text-4xl font-bold text-right ">04</div>
             <div>
               <p className="text-lg font-medium mb-1">Time Management Skills</p>
@@ -78,7 +78,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-1/4 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/4 flex-col gap-3 border rounded-lg p-4">
             <div className="text-4xl font-bold text-right ">05</div>
             <div>
               <p className="text-lg font-medium mb-1">Personalised Feedback</p>
@@ -94,7 +94,7 @@ const Section3 = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex w-1/4 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/4 flex-col gap-3 border rounded-lg p-4">
             <div className="text-4xl font-bold text-right ">02</div>
             <div>
               <p className="text-lg font-medium mb-1">Expert Guidance</p>

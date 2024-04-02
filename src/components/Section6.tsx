@@ -16,7 +16,7 @@ const Section6 = (props: Props) => {
           </p>
         </div>
         <div className="flex flex-wrap justify-around gap-5">
-          <div className="flex w-1/3 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/3 flex-col gap-3 border rounded-lg p-4">
             <p>
               "R. H. Sir's NEET Test Series has been a game-changer for me! The
               comprehensive study material, daily discussions, and personalised
@@ -37,7 +37,7 @@ const Section6 = (props: Props) => {
               </button>
             </div>
           </div>
-          <div className="flex w-1/3 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/3 flex-col gap-3 border rounded-lg p-4">
             <p>
               "I can't thank R. H. Sir's NEET Test Series enough for helping me
               crack the NEET exam. The detailed explanations, peer learning
@@ -58,7 +58,7 @@ const Section6 = (props: Props) => {
               </button>
             </div>
           </div>
-          <div className="flex w-1/3 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/3 flex-col gap-3 border rounded-lg p-4">
             <p>
               "Enrolling in R. H. Sir's NEET Test Series was the best decision I
               made for my NEET preparation. The explanations in Kannada were
@@ -79,7 +79,7 @@ const Section6 = (props: Props) => {
               </button>
             </div>
           </div>
-          <div className="flex w-1/3 flex-col gap-3 border rounded-lg p-4">
+          <div className="flex w-3/4 lg:w-1/3  flex-col gap-3 border rounded-lg p-4">
             <p>
               "I am immensely grateful to R. H. Sir's NEET Test Series for
               guiding me through my NEET journey. The affordable pricing

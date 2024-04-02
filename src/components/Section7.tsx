@@ -6,7 +6,7 @@ type Props = {}
 const Section7 = (props: Props) => {
   return (
     <div className='p-10'>
-      <div className="flex max-w-screen-lg mx-auto">
+      <div className="flex max-w-screen-lg mx-auto flex-col gap-5 lg:flex-row">
         <div className="flex flex-col flex-1">
           <p className='text-4xl font-bold'>Frequently <br /> asked Questions</p>
           <p>Still you have any questions? Contact our Team via support@skillbridge.com</p>
